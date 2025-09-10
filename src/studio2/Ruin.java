@@ -49,7 +49,7 @@ public class Ruin {
             expectedRuinRate = (Math.pow(a, startAmount) - Math.pow(a, winLimit))/1-Math.pow(a, winLimit);
         }
 
-        ruinRate = losses/totalRuns;
+        ruinRate = (double)losses/totalRuns;
 
         System.out.println("Losses: " + losses);
         System.out.println("Simulations: " + totalRuns);
